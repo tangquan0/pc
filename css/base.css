@@ -1,0 +1,272 @@
+/*重置css*/
+div,body,h1,h2,h3,h4,ul,li,dl,dt,dd,ol,img,span,i,strong,a,p{margin: 0;padding: 0}
+li{list-style: none}
+a{text-decoration: none;color:#000}
+img,input,textarea,a{border: none;outline: none}
+textarea{resize: none;}
+i{font-style: normal}
+/*---------------------------公用css---------------------------*/
+body{color: #333;font-family: "微软雅黑";font-size: 12px}
+select{outline: none}
+.inner{margin: 0 auto;width: 1210px;}
+.clearfix:after{content: '';display: block;height: 0;clear: both;font-size: 0;*zoom:1;}
+.fl{float: left;}
+.fr{float: right;}
+/*详情带边框的*/
+.details{width: 94px;line-height: 28px; border: 1px solid #808080;font-size: 16px;background: url(../images/sanjiao.png) 90px center no-repeat;padding-left: 20px;float:right;margin-top: 30px}
+.details:hover{background: url(../images/sanjiao.png) 90px center no-repeat #67956c;transition: all 1s;transform: scale(1.1)}
+/*层级复用*/
+.abstract_top{font-size: 16px;padding: 20px 0}
+.abstract_top a:last-child{color:#106b1e}
+.abstract_top a:hover{text-decoration: underline}
+.margin{margin:0}
+.padding{padding-top: 34px}
+
+
+
+
+/*首页开始！！*/
+.top{height:29px;border-bottom: 2px solid #e9e9e9}
+.top ul{padding-left: 100px}
+.top ul li{float: left;line-height: 29px}
+.top ul li a{margin:0 8px}
+.top ul li a:hover{color: #106b1e;text-decoration: underline}
+.nav img{padding-top: 45px;float: left}
+.nav .select{float: right;padding-top:40px;}
+.nav .select select{float: left;}
+.nav .select p{float: right;}
+.nav .select span{float: right;color:#106b1e;}
+.home_nav{float: right;font-size: 18px;padding-top:20px}
+.home_nav li{float: left;margin-right:60px;line-height:37px}
+.home_nav li:nth-child(1){border-bottom: 2px solid #106b1e;}
+.home_nav li:hover{border-bottom: 2px solid #106b1e;}
+.home_nav li:hover a{color: #106b1e}
+
+.roll{position: relative;width: 1920px;height: 650px;overflow: hidden}
+.roll #a1{width: 50px;height: 100px;background: #000;position: absolute;left:100px;top:250px;font-size: 50px;text-align: center;line-height: 100px;font-family: consolas;opacity: 0.2;color:#fff;}
+.roll #a2{width: 50px;height: 100px;background: #000;position: absolute;right:100px;top:250px;font-size: 50px;text-align: center;line-height: 100px;font-family: consolas;opacity: 0.2;color:#fff}
+.roll:hover #a1{z-index: 2;opacity:0.5;transition: 1s all}
+.roll:hover #a2{z-index: 2;opacity:0.5;transition: 1s all}
+.roll ol{width:7680px;position:absolute;left:0}
+.roll ol li{float:left}
+
+.search{background: #233d25;color: #fff;font-size: 20px;}
+.search a{color: #fff}
+.search p{float: left;line-height: 80px;font-weight: normal;padding-left: 95px}
+.search ul li{float: left;line-height: 80px;font-family: "Adobe 仿宋 Std R"}
+.search ul li:hover a{text-decoration: underline;color: #80cca1}
+.search .sea{width: 127px; height: 27px;background: #8b988c;float: left;margin-top:24px;margin-left:60px}
+.search .btn{width: 34px; height: 29px;background: url(../images/search_03.jpg) no-repeat #8b988c 0 4px;float: left;margin-top: 24px}
+.search .inner{position:relative}
+.search .inner div{position: absolute;left:840px;top:25px;color: #535356;font-size: 16px}
+
+.content .inner{padding-top:73px;}
+.content ul{padding-top: 54px;padding-left:54px}
+.content ul li{float: left;width:372px;height:276px;overflow: hidden;text-transform: uppercase}
+.content ul li img{-webkit-filter: blur(1px)}
+.content ul li img:hover{transform: scale(1.2);transition: all 1s;-webkit-filter: blur(0px)}
+.content ul li:nth-child(odd){background: #f0f0f0;font-size: 32px;color:#4d4d4d;text-align: center;height:176px;padding-top:100px;}
+.content ul li:nth-child(odd) span{color: #777;font-size: 18px;display: block}
+.content ul li:nth-child(odd):hover{background: #333;color: #f0f0f0;transition: all 1s}
+.long img{padding-top:77px}
+
+.product{padding-top: 40px}
+.product ul{padding-left:180px;padding-top: 23px}
+.product ul li{float: left;text-transform: uppercase;color: #969696;font-size: 16px;padding-right:106px;text-align: center;cursor: pointer}
+.product ul li:hover a{color:#326538;}
+.product ul li:hover a span{color:#326538;border-bottom: 2px solid #084f10;}
+.product ul li span{color: #252525;font-family: "Adobe 仿宋 Std R";display: block;font-size: 22px;height: 40px;border-bottom: 2px solid #fff;}
+/*选项卡*/
+.tab img{float: left;padding:4px}
+.tab ul .ac{color:#ccc}
+.tab div{display: none;padding-left: 50px;}
+.tab div.ac{display: block}
+
+.long2 img{padding-top: 70px;}
+.aboutus{padding-top:70px;font-family: "Adobe 仿宋 Std R";color: #474747;}
+.aboutus .about_left{float:left;padding-top: 38px;width:550px;padding-left: 150px}
+.aboutus .about_left h1{line-height: 46px;border-bottom: 2px solid #009944;width:200px}
+.aboutus .about_left p{width:350px;font-size: 18px;line-height: 32px;text-indent: 2em;padding-top:55px}
+.aboutus .about_left div{line-height: 28px;border: 1px solid #808080;width:148px;background: url(../images/jiantou.png) 140px center no-repeat;font-size: 16px;padding-left: 17px;margin-left:170px}
+.aboutus .about_left div:hover{background: url(../images/jiantou.png) 140px center no-repeat #67956c;transition: all 1s;transform: scale(1.1)}
+.aboutus .about_right{padding-top: 53px}
+.news {padding-top: 70px;color: #474747}
+.news .news_left {width:605px;padding-top: 45px;float: left}
+.news .news_left img{float: left;}
+.news .news_left h1{font-size: 24px;line-height: 46px}
+.news .news_left h1 span{font-size: 16px;font-family: "Adobe 仿宋 Std R";color: #80cca1}
+.news .news_left h2{font-size:16px;font-weight: normal;line-height: 30px;border-bottom: 1px solid #009944;width:180px}
+.news .news_left p{width:240px; line-height: 30px;text-indent: 2em;padding-top: 14px;font-size: 14px}
+.news .news_left .content{float: right;padding-right: 60px}
+
+.newbie_guide{font-family: "Adobe 仿宋 Std R";padding-top:70px}
+.newbie_guide h1{font-size: 34px;line-height: 52px;}
+.newbie_guide p{font-size: 18px;line-height: 34px;}
+.newbie_guide .newbie_guide_left{width:624px;color: #fff;float: left}
+.newbie_guide .newbie_guide_left .newbie_guide_left1{width:312px;background:url(../images/nav.png) no-repeat 64px center #3f3e42;float: left;height: 105px;cursor:pointer}
+.newbie_guide .newbie_guide_left .newbie_guide_left1:hover{background:url(../images/nav.png) no-repeat 74px center #000;transition: 1s all}
+.newbie_guide .newbie_guide_left .newbie_guide_left1 p{font-size: 20px;text-align: center;padding-top: 20px;padding-left: 20px}
+.newbie_guide .newbie_guide_left .newbie_guide_left1 p span{display: block;font-size: 14px;}
+.newbie_guide .newbie_guide_left .newbie_guide_left2{width:312px;background:url(../images/duihua.png) no-repeat 54px center #3f3e42;float: left;height: 105px;cursor:pointer}
+.newbie_guide .newbie_guide_left .newbie_guide_left2:hover{background:url(../images/duihua.png) no-repeat 64px center #000;transition: 1s all}
+.newbie_guide .newbie_guide_left .newbie_guide_left2 p{font-size: 20px;text-align: center;padding-top: 20px;padding-left: 20px}
+.newbie_guide .newbie_guide_left .newbie_guide_left2 p span{display: block;font-size: 14px;}
+.newbie_guide .newbie_guide_right{width:440px;background: #3f3e42;text-align: center;color: #fff;float: right}
+.newbie_guide .newbie_guide_right p{line-height: 35px;padding-top:  18px;}
+.newbie_guide .newbie_guide_right:hover{background: #000;transition: all 1s}
+.newbie_guide select{width:104px;height: 31px;text-align: center;font-size: 12px;background: #e0e0e1;margin: 10px}
+
+.footer{background: #233d25;margin-top: 75px;color: #cac9c8}
+.footer .inner{position: relative}
+.footer .position_img{position: absolute;left: 0;top: 0}
+.footer .footer_left{padding-top: 30px;padding-left: 55px;float: left}
+.footer .footer_left p{;font-size: 18px;line-height: 51px;}
+.footer .footer_right{float: right;padding-top: 80px}
+.footer .footer_right div{float: left;width: 142px;font-size: 16px;line-height: 30px;font-family: "Adobe 仿宋 Std R"}
+.footer .footer_right div ul li a{color: #cac9c8}
+.footer .footer_right div ul li a:hover{color: #fff;text-decoration: underline}
+.footer .footer_bottom{text-align: center;line-height: 35px;border-top: 1px solid #595a59;color: #9aa09a}
+.footer .footer_bottom span:last-child{padding-left: 20px}
+/*首页结束！！*/
+
+
+/*关于我们开始！！*/
+.about_nav{float: right;font-size: 18px;padding-top:20px}
+.about_nav li{float: left;margin-right:60px;line-height:37px}
+.about_nav li:nth-child(2){border-bottom: 2px solid #106b1e;}
+.about_nav li:hover{border-bottom: 2px solid #106b1e;}
+.about_nav li:hover a{color: #106b1e}
+.abstract{color: #262726;}
+.abstract .abstract_top{font-size: 16px;padding: 20px 0}
+.abstract .abstract_top a:last-child{color:#106b1e}
+.abstract .abstract_top a:hover{text-decoration: underline}
+.abstract .abstract_img img{padding-top:30px;padding-bottom: 68px}
+.abstract .abstract_a .abstract_a_left{float: left;}
+.abstract .abstract_a .abstract_a_right{float: right;width:540px}
+.abstract .abstract_a .abstract_a_right h2{font-size: 24px;font-family: "Adobe 仿宋 Std R";line-height: 45px;border-bottom: 2px solid #106b1e;width:200px}
+.abstract .abstract_a .abstract_a_right p{font-size: 18px;line-height: 35px;padding-top: 35px}
+.history{text-align: center}
+.history .history_title{padding-top:60px;}
+.history p{font-size: 18px;color: #aaaaaa;line-height: 60px}
+.history .history_img{padding-op:25px;padding-bottom: 65px}
+.honor .honor_title{padding-bottom: 60px;}
+.honor .honor_top{padding-left: 280px}
+.honor .honor_top img:last-child{padding-left:200px}
+.honor .honor_bottom{padding-top: 50px}
+.honor .honor_bottom img{float: left;margin-left:70px}
+/*关于我们结束！！*/
+
+
+
+/*工艺展示开始！！*/
+.show_nav{float: right;font-size: 18px;padding-top:20px}
+.show_nav li{float: left;margin-right:60px;line-height:37px}
+.show_nav li:nth-child(3){border-bottom: 2px solid #106b1e;}
+.show_nav li:hover{border-bottom: 2px solid #106b1e;}
+.show_nav li:hover a{color: #106b1e}
+.production{color:#6d746e}
+.production .production_title img{padding-top:50px;}
+.production .text span{font-size: 24px;padding-left:10px;line-height: 36px}
+.production .text p{font-size: 16px;width:250px;text-indent: 2em;line-height: 18px}
+.production .text div{padding-top: 10px}
+.production .content{position: relative}
+.production .text{position: absolute;right: 20px;top: 240px}
+.improvement{color:#6d746e}
+.improvement .improvement_left{float: left;padding-left: 70px}
+.improvement .improvement_left span{font-size: 28px;line-height: 63px;padding-left: 20px}
+.improvement .improvement_left p{font-size: 20px;line-height: 30px;text-indent: 2em}
+.improvement .improvement_left div{width: 355px;padding-top: 45px}
+.improvement .improvement_right{float: right}
+.improvement .improvement_right span{font-size: 28px;line-height: 63px;padding-left: 20px}
+.improvement .improvement_right p{font-size: 20px;line-height: 30px;text-indent: 2em}
+.improvement .improvement_right div:first-child{width: 355px;padding-top: 45px;float: right;padding-right:70px}
+.improvement .improvement_right div:last-child img{padding-top: 50px}
+/*工艺展示结束！！*/
+
+
+
+/*加盟中心开始！！*/
+.join_nav{float: right;font-size: 18px;padding-top:20px}
+.join_nav li{float: left;margin-right:60px;line-height:37px}
+.join_nav li:nth-child(5){border-bottom: 2px solid #106b1e;}
+.join_nav li:hover{border-bottom: 2px solid #106b1e;}
+.join_nav li:hover a{color: #106b1e}
+.join{color: #38383a;font-size: 18px}
+.join .join_title img{padding-top: 30px}
+.join .request{padding-top:50px;padding-left:180px;line-height: 36px}
+.border-radius{width:210px;height:210px;border-radius: 105px;overflow: hidden;float: left;border: 3px solid #a9c1ac;position: relative}
+.border-radius:hover .bg{left:0;transition: all 1s;}
+.join .bg{width:210px;height:210px;background: #000;opacity: 0.5;position: absolute;left: -210px;top: 0px;text-align: center;line-height: 210px;color: floralwhite}
+.join .border{padding-left: 170px;padding-top: 55px}
+.join .lian{float: left;padding-top: 95px}
+.resource{font-size: 18px;color:#38383a}
+.resource .resource_title{padding-top:72px}
+.resource .resource_text{width:820px;line-height: 37px;margin: 0 auto;padding-top: 60px}
+.resource .process{padding-top: 60px}
+/*加盟中心结束*/
+
+
+
+/*产品中心开始*/
+.product_nav{float: right;font-size: 18px;padding-top:20px}
+.product_nav li{float: left;margin-right:60px;line-height:37px}
+.product_nav li:nth-child(4){border-bottom: 2px solid #106b1e;}
+.product_nav li:hover{border-bottom: 2px solid #106b1e;}
+.product_nav li:hover a{color: #106b1e}
+.product .product_list{float: left;margin-right: 17px;}
+.product .product_list p{color: #171717;font-size: 22px;line-height: 36px;padding-top: 8px}
+.product .product_list p span{color: #9d9a9a;font-size: 16px;display: block;line-height: 20px}
+.product .product_list .product_re{position:relative;width:385px;height:353px;overflow: hidden}
+.product .product_list .product_ab{width:385px;height:50px;background: #000;opacity: 0.5;position: absolute;left: 0;top: 353px;text-align: center;color: floralwhite;font-size: 18px;line-height: 50px;}
+.product .product_list:hover .product_ab{top:303px;transition: 1s all}
+/*产品中心结束*/
+
+
+
+
+
+/*采购中心开始*/
+.principle_nav{float: right;font-size: 18px;padding-top:20px}
+.principle_nav li{float: left;margin-right:60px;line-height:37px}
+.principle_nav li:nth-child(6){border-bottom: 2px solid #106b1e;}
+.principle_nav li:hover{border-bottom: 2px solid #106b1e;}
+.principle_nav li:hover a{color: #106b1e}
+.principle{color: #38383a}
+.principle .principle_title{padding-top:30px}
+.principle .principle_img{float: left;padding: 60px}
+.principle .principle_text{float: right;padding: 60px}
+.principle .principle_text h1{font-size: 24px;line-height: 40px;border-bottom: 2px solid #106b1e;width:220px;}
+.principle .principle_text p{font-size: 18px;line-height: 36px;width: 438px}
+.project .project_text_top{width:580px;margin: 0 auto;padding-top: 50px}
+.project .project_text_top h2{float: left;font-size: 24px;line-height: 40px;border-bottom: 2px solid #106b1e;width: 144px}
+.project .project_text_top p{float: right;width:355px;font-size: 18px;line-height: 37px}
+.project .project_pic{padding-top: 35px}
+/*采购中心结束*/
+
+
+
+/*人力资源开始*/
+.manpower_nav{float: right;font-size: 18px;padding-top:20px}
+.manpower_nav li{float: left;margin-right:60px;line-height:37px}
+.manpower_nav li:nth-child(7){border-bottom: 2px solid #106b1e;}
+.manpower_nav li:hover{border-bottom: 2px solid #106b1e;}
+.manpower_nav li:hover a{color: #106b1e}
+.manpower{font-size: 18px;color:#212121}
+.manpower .manpower_title{padding-top: 20px;padding-bottom: 55px}
+.manpower .manpower_top p{line-height: 48px;}
+.manpower .manpower_bottom h1{line-height: 55px;width:175px;background: #023f05;color: #dbdcd9;font-family: "Adobe 仿宋 Std R";text-align: center;font-size: 35px;margin-top: 70px}
+.manpower .manpower_bottom p{width:376px;line-height: 29px;padding-top: 27px}
+.manpower .manpower_bottom{padding-bottom: 320px}
+.manpower .inner{position: relative}
+.manpower .position{position: absolute;right: 90px;bottom:240px}
+.manpower .position1{position: absolute;right: 529px;bottom: -16px}
+/*人力资源结束*/
+
+
+
+
+
+
+
+
+
